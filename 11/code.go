@@ -20,7 +20,6 @@ func maxArea(height []int) int {
 	right := len(height) - 1 //右起点
 	maxVal := 0 //最大容量
 	for left != right {
-		fmt.Println(left, " , ", right)
 		isLeftSmall := true //是否左边较小
 		currentHeight := height[left]
 		if currentHeight > height[right] {
