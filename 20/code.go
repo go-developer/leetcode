@@ -34,6 +34,10 @@ func isValid(s string) bool {
 		return true
 	}
 
+	if len(s)%2 == 1 {
+		return false
+	}
+
 	// 括号标示的数据结构
 	type charFlag struct {
 		matchChar string
