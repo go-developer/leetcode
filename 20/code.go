@@ -20,7 +20,7 @@ func main() {
 	}
 
 	for _, itemCase := range testCase {
-		fmt.Printf("%v \n", isValidV2(itemCase))
+		fmt.Printf("%v \n", isValid(itemCase))
 	}
 }
 
